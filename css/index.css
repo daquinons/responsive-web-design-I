@@ -151,6 +151,10 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+:root {
+  font-size: 16px;
+}
+
 body {
   margin: 28px;
 }
@@ -194,7 +198,28 @@ header {
 }
 
 @media(max-width: 500px) {
+  nav {
+    margin-left: -28px;
+    margin-right: -28px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .links-nav {
+    border-top: 1px solid black;
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 
+  .link-nav {
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px black solid;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
 }
 
 div.header-left {
