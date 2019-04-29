@@ -254,8 +254,9 @@ section {
   align-items: center;
 }
 
-.centerer {
-  text-align: center;
+.image-center {
+  display: flex;
+  justify-content: center;
 }
 
 .contact p {
